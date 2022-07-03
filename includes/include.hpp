@@ -18,4 +18,6 @@ class Server;
 class Chanels;
 class Clients;
 
+int creation_socket(Server &server, const char *port);
+
 #endif

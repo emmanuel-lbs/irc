@@ -1,6 +1,8 @@
 ##############################  SOURCE & OBJETS  ###############################
 
-SRCS =	srcs/main.cpp 
+SRCS =	srcs/main.cpp \
+		srcs/socket.cpp\
+		srcs/server.cpp
 
 INCLUDE =  includes/include.hpp
 
