@@ -17,7 +17,7 @@ int creation_socket(Server &server, const char *port)
 
 	/**************************************************************/
 	/***create a socket to receive connection *********************/
-	/***AFINET == IPV4, SOCKSTREAM == TCP, 0 == internet protocl***/
+	/***AFINET == IPV4, SOCKSTREAM == TCP, 0 == 1 seul protocol IP*/
 	/**************************************************************/
 	socket_fd = socket(AF_INET, SOCK_STREAM, 0); 
 	if (socket_fd < 0) {
